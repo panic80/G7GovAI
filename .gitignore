@@ -1,0 +1,47 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Backend
+backend/chroma_db/
+backend/venv/
+backend/__pycache__/
+__pycache__/
+*.pyc
+backend/source_data/
+source_docs/
+# Keep sample_data for demo (don't ignore it)
+!backend/sample_data/
+# Environment files - NEVER commit secrets
+.env
+.env.local
+.env*.local
+.env*.jsonl
+
+backend/audit_logs.jsonl
+.gemini-clipboard/
+
+# Markdown files (except README)
+*.md
+!README.md

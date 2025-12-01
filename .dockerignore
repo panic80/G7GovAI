@@ -1,0 +1,10 @@
+node_modules
+.git
+.DS_Store
+dist
+coverage
+.env.local
+.env
+backend/venv
+backend/__pycache__
+backend/chroma_db

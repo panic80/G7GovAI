@@ -1,0 +1,67 @@
+#
+# Pinned requirements for reproducible builds
+# Source: requirements.in
+# Generated to avoid pip resolution-too-deep errors in CI
+#
+
+# Core Framework
+fastapi==0.115.6
+uvicorn==0.32.1
+pydantic==2.10.3
+starlette==0.41.3
+
+# LLM & AI
+chromadb==0.5.23
+google-generativeai==0.8.3
+openai==1.57.2
+sentence-transformers==3.3.1
+
+# LangChain ecosystem (pinned for compatibility)
+langchain==0.3.13
+langchain-core==0.3.27
+langchain-community==0.3.13
+langchain-text-splitters==0.3.4
+langchain-google-genai==2.0.7
+langgraph==0.2.59
+
+# Data processing
+numpy==1.26.4
+pandas==2.2.3
+scipy==1.14.1
+
+# PDF handling
+pdfplumber==0.11.4
+pypdf==5.1.0
+
+# Web scraping & HTTP
+beautifulsoup4==4.12.3
+requests==2.32.3
+aiohttp==3.11.10
+
+# Database
+SQLAlchemy==2.0.36
+psycopg2-binary==2.9.10; platform_system != "Darwin"
+psycopg[binary,pool]==3.2.3; platform_system == "Darwin"
+
+# Optimization
+ortools==9.12.4544
+
+# Utilities
+python-dotenv==1.0.1
+python-multipart==0.0.17
+tqdm==4.67.1
+certifi==2024.12.14
+
+# Security & Rate Limiting
+slowapi==0.1.9
+
+# Structured Logging
+python-json-logger==2.0.7
+
+# Testing
+pytest==8.3.4
+pytest-cov==6.0.0
+pytest-asyncio==0.24.0
+
+# Type Checking
+mypy==1.13.0

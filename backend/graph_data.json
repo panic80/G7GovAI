@@ -1,0 +1,2206 @@
+{
+  "nodes": [
+    {
+      "id": "source_data-chunk-0",
+      "label": "Source Data",
+      "type": "Info",
+      "group": 1
+    },
+    {
+      "id": "source_data-chunk-1",
+      "label": "Source Data",
+      "type": "Info",
+      "group": 1
+    },
+    {
+      "id": "source_data-chunk-2",
+      "label": "Source Data",
+      "type": "Info",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-0",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "legislation_revision_and_consolidation_act",
+      "label": "Legislation Revision and Consolidation Act",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-1",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-2",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "statutory_instruments_act",
+      "label": "Statutory Instruments Act",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-3",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-4",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-5",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-6",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-7",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-8",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-9",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-10",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-11",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-12",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "food_and_drugs_act",
+      "label": "Food and Drugs Act",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "s.c._1993,_c._34",
+      "label": "S.C. 1993, c. 34",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-13",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "dors/2006-197",
+      "label": "DORS/2006-197",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-14",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-15",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "loi_sur_les_brevets",
+      "label": "Loi sur les brevets",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-16",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-17",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-18",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "dors/2015-193",
+      "label": "DORS/2015-193",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "patent_act",
+      "label": "Patent Act",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-19",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-20",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-21",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "sor/2002-190",
+      "label": "SOR/2002-190",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-22",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-23",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-24",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-25",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-26",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-27",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-28",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "la_loi_sur_les_aliments_et_drogues",
+      "label": "La Loi sur les aliments et drogues",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-29",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-30",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-31",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-32",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-33",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-34",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "sor/2015-193",
+      "label": "SOR/2015-193",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-35",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-36",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-37",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-38",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-39",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-40",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-41",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-42",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-43",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-44",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-45",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "cannabis_regulations",
+      "label": "Cannabis Regulations",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "cannabis_act",
+      "label": "Cannabis Act",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "food_and_drug_regulations",
+      "label": "Food and Drug Regulations",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "controlled_drugs_and_substances_act",
+      "label": "Controlled Drugs and Substances Act",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "narcotic_control_regulations",
+      "label": "Narcotic Control Regulations",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "sor/2018-144",
+      "label": "SOR/2018-144",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-46",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-47",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-48",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-49",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-50",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-51",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-52",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-53",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-54",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-55",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-56",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-57",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-58",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-59",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-60",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-61",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-62",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-63",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-64",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-65",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-66",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-67",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-68",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-69",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "sor/2007-289",
+      "label": "SOR/2007-289",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-70",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-71",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-72",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-73",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-74",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-75",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-76",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-77",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-78",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-79",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-80",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-81",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-82",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-83",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-84",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-85",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-86",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-87",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-88",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-89",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-90",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-91",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-92",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-93",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-94",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-95",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-96",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-97",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-98",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-99",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-100",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-101",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-102",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-103",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-104",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-105",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-106",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-107",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-108",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-109",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-110",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-111",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-112",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-113",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-114",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-115",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-116",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-117",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-118",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-119",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-120",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-121",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-122",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-123",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-124",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-125",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-126",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-127",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-128",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-129",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-130",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-131",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-132",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-133",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-134",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-135",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-136",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-137",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-138",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-139",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-140",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-141",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "sor/2019-63",
+      "label": "SOR/2019-63",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "dors/2019-63",
+      "label": "DORS/2019-63",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "general_council_decision",
+      "label": "General Council Decision",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "sor/2005-142",
+      "label": "SOR/2005-142",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "sor/2011-42",
+      "label": "SOR/2011-42",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "dors/2005-142",
+      "label": "DORS/2005-142",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "dors/2011-42",
+      "label": "DORS/2011-42",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-142",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-143",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-144",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-145",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-146",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-147",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-148",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-149",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-150",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-151",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-152",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-153",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-154",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-155",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-156",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-157",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-158",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-159",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-160",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-161",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-162",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "sor/2024-136",
+      "label": "SOR/2024-136",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "dors/2024-136",
+      "label": "DORS/2024-136",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-163",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-164",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-165",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-166",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-167",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-168",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-169",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-170",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-171",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-172",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-173",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-174",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-175",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-176",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-177",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-178",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-179",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-180",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-181",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-182",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-183",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-184",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-185",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-186",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-187",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-188",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-189",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-190",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-191",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-192",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-193",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-194",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-195",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-196",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-197",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-198",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-199",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-200",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-201",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-202",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "sor/2020-262",
+      "label": "SOR/2020-262",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "sor/2023-19",
+      "label": "SOR/2023-19",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-203",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-204",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-205",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-206",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-207",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-208",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "sor/2019-191",
+      "label": "SOR/2019-191",
+      "type": "External",
+      "group": 2
+    },
+    {
+      "id": "SOR-98-282-chunk-209",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-210",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-211",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-212",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-213",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-214",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-215",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-216",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-217",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-218",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-219",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-220",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-221",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-222",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-223",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-224",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-225",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-226",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-227",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-228",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-229",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-230",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-231",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-232",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-233",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-234",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-235",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-236",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-237",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-238",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-239",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-240",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-241",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-242",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-243",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-244",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-245",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-246",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-247",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-248",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-249",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-250",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-251",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-252",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-253",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-254",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-255",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-256",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-257",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-258",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-259",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-260",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-261",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-262",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-263",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-264",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-265",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-266",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-267",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-268",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-269",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-270",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-271",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-272",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-273",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-274",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-275",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-276",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-277",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-278",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-279",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-280",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-281",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-282",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-283",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-284",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-285",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-286",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-287",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-288",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-289",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-290",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-291",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-292",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-293",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-294",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-295",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    },
+    {
+      "id": "SOR-98-282-chunk-296",
+      "label": "Medical Devices Regulations / R\u00e8glement sur les instruments m\u00e9dicaux",
+      "type": "Legal",
+      "group": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "SOR-98-282-chunk-0",
+      "target": "legislation_revision_and_consolidation_act",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-2",
+      "target": "statutory_instruments_act",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-12",
+      "target": "food_and_drugs_act",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-12",
+      "target": "s.c._1993,_c._34",
+      "relationship": "RELATED_TO"
+    },
+    {
+      "source": "SOR-98-282-chunk-12",
+      "target": "food_and_drugs_act",
+      "relationship": "DEFINES"
+    },
+    {
+      "source": "SOR-98-282-chunk-13",
+      "target": "food_and_drugs_act",
+      "relationship": "DEFINES"
+    },
+    {
+      "source": "SOR-98-282-chunk-13",
+      "target": "dors/2006-197",
+      "relationship": "REPEALS"
+    },
+    {
+      "source": "SOR-98-282-chunk-15",
+      "target": "loi_sur_les_brevets",
+      "relationship": "DEFINES"
+    },
+    {
+      "source": "SOR-98-282-chunk-18",
+      "target": "dors/2015-193",
+      "relationship": "REPEALS"
+    },
+    {
+      "source": "SOR-98-282-chunk-18",
+      "target": "patent_act",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-21",
+      "target": "sor/2002-190",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-28",
+      "target": "la_loi_sur_les_aliments_et_drogues",
+      "relationship": "DEFINES"
+    },
+    {
+      "source": "SOR-98-282-chunk-28",
+      "target": "la_loi_sur_les_aliments_et_drogues",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-34",
+      "target": "sor/2015-193",
+      "relationship": "REPEALS"
+    },
+    {
+      "source": "SOR-98-282-chunk-45",
+      "target": "cannabis_regulations",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-45",
+      "target": "cannabis_act",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-45",
+      "target": "food_and_drugs_act",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-45",
+      "target": "food_and_drug_regulations",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-45",
+      "target": "controlled_drugs_and_substances_act",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-45",
+      "target": "narcotic_control_regulations",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-45",
+      "target": "sor/2018-144",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-69",
+      "target": "sor/2002-190",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-69",
+      "target": "sor/2007-289",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-119",
+      "target": "food_and_drugs_act",
+      "relationship": "RELATED_TO"
+    },
+    {
+      "source": "SOR-98-282-chunk-141",
+      "target": "sor/2019-63",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-141",
+      "target": "dors/2019-63",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-141",
+      "target": "general_council_decision",
+      "relationship": "RELATED_TO"
+    },
+    {
+      "source": "SOR-98-282-chunk-141",
+      "target": "patent_act",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-141",
+      "target": "sor/2005-142",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-141",
+      "target": "sor/2011-42",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-141",
+      "target": "dors/2005-142",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-141",
+      "target": "dors/2011-42",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-142",
+      "target": "patent_act",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-143",
+      "target": "patent_act",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-145",
+      "target": "sor/2005-142",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-145",
+      "target": "patent_act",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-146",
+      "target": "dors/2005-142",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-146",
+      "target": "sor/2005-142",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-162",
+      "target": "sor/2024-136",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-162",
+      "target": "dors/2024-136",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-202",
+      "target": "sor/2020-262",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-202",
+      "target": "sor/2023-19",
+      "relationship": "AMENDS"
+    },
+    {
+      "source": "SOR-98-282-chunk-208",
+      "target": "sor/2019-191",
+      "relationship": "CITES"
+    },
+    {
+      "source": "SOR-98-282-chunk-211",
+      "target": "sor/2020-262",
+      "relationship": "AMENDS"
+    }
+  ]
+}
