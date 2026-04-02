@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@google/genai": "^1.30.0",
-    "dompurify": "^3.0.0",
+    "dompurify": "^3.3.2",
     "lucide-react": "^0.554.0",
     "react": "^19.2.0",
     "react-d3-tree": "^3.6.6",
@@ -18,7 +18,7 @@
     "react-force-graph-2d": "^1.29.0",
     "react-is": "^19.2.0",
     "react-markdown": "^10.1.0",
-    "react-router-dom": "^7.9.6",
+    "react-router-dom": "^7.13.2",
     "recharts": "^3.4.1",
     "remark-gfm": "^4.0.1",
     "zustand": "^5.0.8"
@@ -31,6 +31,6 @@
     "jsdom": "^27.2.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0",
-    "vitest": "^1.0.0"
+    "vitest": "^4.1.1"
   }
 }
