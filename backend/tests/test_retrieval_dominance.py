@@ -1,3 +1,5 @@
+import asyncio
+import pytest
 import os
 import sys
 from dotenv import load_dotenv
@@ -13,7 +15,8 @@ except ImportError:
     sys.path.append(os.path.join(os.getcwd(), 'backend'))
     from agent.govlens.nodes import retrieve_node
 
-def test_retrieval_dominance():
+@pytest.mark.asyncio
+async def test_retrieval_dominance():
     query = "what kind of laws, legislations or bills exist to protect canadians from harmful foods?"
     print(f"--- Testing Retrieval Dominance for query: '{query}' ---")
 
@@ -28,7 +31,7 @@ def test_retrieval_dominance():
     }
     
     try:
-        res_simple = retrieve_node(state_simple)
+        res_simple = await retrieve_node(state_simple)
         docs_simple = res_simple["documents"]
         print(f"Retrieved {len(docs_simple)} docs.")
         
@@ -62,4 +65,4 @@ def test_retrieval_dominance():
         traceback.print_exc()
 
 if __name__ == "__main__":
-    test_retrieval_dominance()
+    asyncio.run(test_retrieval_dominance())
