@@ -1,7 +1,7 @@
 /**
  * Vitest setup for store tests
  */
-import { vi } from 'vitest';
+import { beforeEach, vi } from 'vitest';
 
 // Mock sessionStorage
 const sessionStorageMock = (() => {

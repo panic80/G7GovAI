@@ -1,11 +1,18 @@
 import { useCallback } from 'react';
 import { CONFIG } from '../../../config';
 import { TOAST_DURATION_MS } from '../../../constants';
+import { streamJsonLinesFromResponse } from '../../../services/apiClient';
 import { useKnowledgeBaseStore } from '../../../stores/knowledgeBaseStore';
-import type { Connector, Dataset, ImportProgressState } from '../types';
 
 interface UseConnectorsOptions {
   onImportComplete?: () => void;
+}
+
+interface ConnectorImportUpdate {
+  phase?: string;
+  status?: string;
+  progress?: number;
+  message?: string;
 }
 
 export function useConnectors(options: UseConnectorsOptions = {}) {
@@ -78,39 +85,18 @@ export function useConnectors(options: UseConnectorsOptions = {}) {
       if (!res.ok) throw new Error('Import failed');
       if (!res.body) throw new Error('No response body');
 
-      const reader = res.body.getReader();
-      const decoder = new TextDecoder();
-      let buffer = '';
+      for await (const update of streamJsonLinesFromResponse<ConnectorImportUpdate>(res)) {
+        setImportProgress({
+          phase: update.phase || update.status || 'processing',
+          progress: update.progress || 0,
+          message: update.message || 'Processing...'
+        });
 
-      while (true) {
-        const { value, done } = await reader.read();
-        if (done) break;
-
-        const chunk = decoder.decode(value, { stream: true });
-        buffer += chunk;
-
-        const lines = buffer.split('\n');
-        buffer = lines.pop() || '';
-
-        for (const line of lines) {
-          if (!line.trim()) continue;
-          try {
-            const update = JSON.parse(line);
-            setImportProgress({
-              phase: update.phase || update.status || 'processing',
-              progress: update.progress || 0,
-              message: update.message || 'Processing...'
-            });
-
-            if (update.phase === 'complete' || update.status === 'complete') {
-              setTimeout(() => {
-                setImportProgress(null);
-                onImportComplete?.();
-              }, 2000);
-            }
-          } catch {
-            console.warn('Failed to parse:', line);
-          }
+        if (update.phase === 'complete' || update.status === 'complete') {
+          setTimeout(() => {
+            setImportProgress(null);
+            onImportComplete?.();
+          }, 2000);
         }
       }
     } catch (error: any) {

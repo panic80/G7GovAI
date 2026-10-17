@@ -1,10 +1,22 @@
 import { useState, useCallback, useRef, useEffect } from 'react';
 import { CONFIG } from '../../../config';
+import { streamJsonLinesFromResponse } from '../../../services/apiClient';
 import type { SampleDataProgressState, SampleDataFile, IngestionLog } from '../types';
 import { SAMPLE_FILE_TITLES } from '../types';
 
 interface UseSampleDataOptions {
   onComplete?: () => void;
+}
+
+interface SampleDataUpdate {
+  overall_progress?: number;
+  progress?: number;
+  message?: string;
+  current_file?: string;
+  file_index?: number;
+  total_files?: number;
+  phase?: string;
+  model?: string;
 }
 
 export function useSampleData(options: UseSampleDataOptions = {}) {
@@ -48,70 +60,54 @@ export function useSampleData(options: UseSampleDataOptions = {}) {
         throw new Error(`HTTP error: ${response.status}`);
       }
 
-      const reader = response.body?.getReader();
-      const decoder = new TextDecoder();
+      if (!response.body) throw new Error('No response body');
 
-      if (!reader) throw new Error('No response body');
+      for await (const data of streamJsonLinesFromResponse<SampleDataUpdate>(response)) {
+        const progressValue = data.overall_progress || data.progress || 0;
+        const message = data.message || data.current_file || '';
 
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
+        setProgress({
+          message,
+          progress: progressValue,
+          currentFile: data.current_file,
+          fileIndex: data.file_index,
+          totalFiles: data.total_files,
+          phase: data.phase,
+          model: data.model,
+        });
 
-        const chunk = decoder.decode(value, { stream: true });
-        const lines = chunk.split('\n').filter(Boolean);
+        // Track file list and statuses
+        if (data.current_file && !seenFiles.has(data.current_file)) {
+          seenFiles.add(data.current_file);
+          setFiles(prev => [...prev, {
+            name: data.current_file,
+            title: SAMPLE_FILE_TITLES[data.current_file] || data.current_file.replace(/[_-]/g, ' ').replace(/\.\w+$/, ''),
+            status: 'processing',
+            phase: data.phase,
+          }]);
+          currentFileIndex = (data.file_index || 1) - 1;
+        }
 
-        for (const line of lines) {
-          try {
-            const data = JSON.parse(line);
-            const progressValue = data.overall_progress || data.progress || 0;
-            const message = data.message || data.current_file || '';
+        // Update current file status
+        if (data.current_file) {
+          setFiles(prev => prev.map((f, idx) =>
+            f.name === data.current_file
+              ? { ...f, status: 'processing', phase: data.phase }
+              : idx < currentFileIndex
+                ? { ...f, status: 'complete', phase: 'complete' }
+                : f
+          ));
+        }
 
-            setProgress({
-              message,
-              progress: progressValue,
-              currentFile: data.current_file,
-              fileIndex: data.file_index,
-              totalFiles: data.total_files,
-              phase: data.phase,
-              model: data.model,
-            });
-
-            // Track file list and statuses
-            if (data.current_file && !seenFiles.has(data.current_file)) {
-              seenFiles.add(data.current_file);
-              setFiles(prev => [...prev, {
-                name: data.current_file,
-                title: SAMPLE_FILE_TITLES[data.current_file] || data.current_file.replace(/[_-]/g, ' ').replace(/\.\w+$/, ''),
-                status: 'processing',
-                phase: data.phase,
-              }]);
-              currentFileIndex = (data.file_index || 1) - 1;
-            }
-
-            // Update current file status
-            if (data.current_file) {
-              setFiles(prev => prev.map((f, idx) =>
-                f.name === data.current_file
-                  ? { ...f, status: 'processing', phase: data.phase }
-                  : idx < currentFileIndex
-                    ? { ...f, status: 'complete', phase: 'complete' }
-                    : f
-              ));
-            }
-
-            if (data.phase === 'complete' && !data.current_file) {
-              // Final completion - mark all as complete
-              setFiles(prev => prev.map(f => ({ ...f, status: 'complete', phase: 'complete' })));
-              addLog(`Sample data ingestion complete: ${message}`, 'success');
-            } else if (data.phase === 'error') {
-              setFiles(prev => prev.map(f =>
-                f.name === data.current_file ? { ...f, status: 'error' } : f
-              ));
-              addLog(`Error: ${message}`, 'error');
-            }
-          } catch {
-            // Skip non-JSON lines
-          }
+        if (data.phase === 'complete' && !data.current_file) {
+          // Final completion - mark all as complete
+          setFiles(prev => prev.map(f => ({ ...f, status: 'complete', phase: 'complete' })));
+          addLog(`Sample data ingestion complete: ${message}`, 'success');
+        } else if (data.phase === 'error') {
+          setFiles(prev => prev.map(f =>
+            f.name === data.current_file ? { ...f, status: 'error' } : f
+          ));
+          addLog(`Error: ${message}`, 'error');
         }
       }
 
