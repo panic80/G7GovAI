@@ -160,50 +160,7 @@ export async function* streamJsonLines<T>(
     throw await createApiError(response);
   }
 
-  if (!response.body) {
-    throw new Error('Response body is null');
-  }
-
-  const reader = response.body.getReader();
-  const decoder = new TextDecoder();
-  let buffer = '';
-
-  try {
-    while (true) {
-      const { done, value } = await reader.read();
-
-      if (done) {
-        // Process any remaining data in buffer
-        if (buffer.trim()) {
-          try {
-            yield JSON.parse(buffer) as T;
-          } catch {
-            // Ignore incomplete JSON at end
-          }
-        }
-        break;
-      }
-
-      buffer += decoder.decode(value, { stream: true });
-
-      // Process complete lines
-      const lines = buffer.split('\n');
-      buffer = lines.pop() || ''; // Keep incomplete line in buffer
-
-      for (const line of lines) {
-        const trimmed = line.trim();
-        if (!trimmed) continue;
-
-        try {
-          yield JSON.parse(trimmed) as T;
-        } catch (err) {
-          console.warn('Failed to parse stream line:', trimmed, err);
-        }
-      }
-    }
-  } finally {
-    reader.releaseLock();
-  }
+  yield* streamJsonLinesFromResponse<T>(response);
 }
 
 /**
@@ -273,19 +230,21 @@ export async function* uploadFileWithProgress<T>(
     throw await createApiError(response);
   }
 
-  if (!response.body) {
-    throw new Error('Response body is null');
-  }
-
   // Stream the progress events
   yield* streamJsonLinesFromResponse<T>(response);
 }
 
 /**
  * Stream NDJSON from an existing response.
+ *
+ * Keeps partial lines and UTF-8 sequences across network chunks and accepts a
+ * final event without a trailing newline. Blank lines are skipped; strict mode
+ * rejects malformed JSON instead of skipping it.
+ * Cancels unfinished streams when iteration stops, then releases the reader.
  */
-async function* streamJsonLinesFromResponse<T>(
-  response: Response
+export async function* streamJsonLinesFromResponse<T>(
+  response: Response,
+  options: { strict?: boolean } = {}
 ): AsyncGenerator<T, void, undefined> {
   if (!response.body) {
     throw new Error('Response body is null');
@@ -294,38 +253,43 @@ async function* streamJsonLinesFromResponse<T>(
   const reader = response.body.getReader();
   const decoder = new TextDecoder();
   let buffer = '';
+  let finished = false;
 
   try {
-    while (true) {
+    while (!finished) {
       const { done, value } = await reader.read();
+      finished = done;
+      buffer += done ? decoder.decode() : decoder.decode(value, { stream: true });
 
-      if (done) {
-        if (buffer.trim()) {
-          try {
-            yield JSON.parse(buffer) as T;
-          } catch {
-            // Ignore
-          }
-        }
-        break;
-      }
-
-      buffer += decoder.decode(value, { stream: true });
       const lines = buffer.split('\n');
       buffer = lines.pop() || '';
+      if (done) {
+        lines.push(buffer);
+      }
 
       for (const line of lines) {
         const trimmed = line.trim();
         if (!trimmed) continue;
 
+        let event: T;
         try {
-          yield JSON.parse(trimmed) as T;
-        } catch {
-          // Skip invalid lines
+          event = JSON.parse(trimmed) as T;
+        } catch (error) {
+          if (options.strict) throw error;
+          // A malformed event must not prevent later valid events from arriving.
+          continue;
         }
+        yield event;
       }
     }
   } finally {
-    reader.releaseLock();
+    try {
+      if (!finished) {
+        // Cleanup must not mask a read failure or an error in the consumer.
+        await reader.cancel().catch(() => {});
+      }
+    } finally {
+      reader.releaseLock();
+    }
   }
 }

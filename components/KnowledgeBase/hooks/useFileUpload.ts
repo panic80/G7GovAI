@@ -1,10 +1,21 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { CONFIG } from '../../../config';
+import { streamJsonLinesFromResponse } from '../../../services/apiClient';
 import { useKnowledgeBaseStore } from '../../../stores/knowledgeBaseStore';
-import type { UploadHistoryItem, IngestionLog, UploadStatus, IngestionStep } from '../types';
+import type { IngestionLog, IngestionStep } from '../types';
 
 interface UseFileUploadOptions {
   onComplete?: () => void;
+}
+
+interface FileUploadUpdate {
+  message?: string;
+  status?: string;
+  phase?: string;
+  model?: string;
+  progress?: number;
+  total?: number;
+  chunks?: number;
 }
 
 export function useFileUpload(options: UseFileUploadOptions = {}) {
@@ -53,73 +64,50 @@ export function useFileUpload(options: UseFileUploadOptions = {}) {
     if (!res.ok) throw new Error('Upload failed');
     if (!res.body) throw new Error('No response body');
 
-    const reader = res.body.getReader();
-    const decoder = new TextDecoder();
-    let buffer = '';
     let finalStatus: 'success' | 'skipped' = 'success';
 
-    while (true) {
-      const { value, done } = await reader.read();
-      if (done) break;
+    for await (const update of streamJsonLinesFromResponse<FileUploadUpdate>(res, { strict: true })) {
+      if (update.message) {
+        setMessage(update.message);
+        const logType = update.status === 'error' || update.phase === 'error' ? 'error' : update.status === 'skipped' ? 'warning' : 'info';
+        addLog(update.message, logType);
+      }
 
-      const chunk = decoder.decode(value, { stream: true });
-      buffer += chunk;
-
-      const lines = buffer.split('\n');
-      buffer = lines.pop() || '';
-
-      for (const line of lines) {
-        if (!line.trim()) continue;
-        try {
-          const update = JSON.parse(line);
-
-          if (update.message) {
-            setMessage(update.message);
-            const logType = update.status === 'error' || update.phase === 'error' ? 'error' : update.status === 'skipped' ? 'warning' : 'info';
-            addLog(update.message, logType);
-          }
-
-          const status = update.status || update.phase;
-          if (['reading', 'analyzing', 'embedding'].includes(status)) {
-            setCurrentStep(status as IngestionStep);
-            // Track model name for each step
-            if (update.model) {
-              setStepModel(status as IngestionStep, update.model);
-            }
-          }
-
-          if (status === 'skipped') {
-            finalStatus = 'skipped';
-          }
-
-          if (update.total && update.total > 0) {
-            let currentProgress = 0;
-            if (typeof update.progress === 'number') {
-              currentProgress = (update.progress / update.total) * 100;
-            }
-            setProgress(Math.min(Math.round(currentProgress), 99));
-          } else if (typeof update.progress === 'number') {
-            setProgress(Math.min(update.progress, 99));
-          } else if (status === 'reading') {
-            setProgress(10);
-          } else if (status === 'analyzing') {
-            setProgress(30);
-          }
-
-          if (status === 'complete') {
-            setProgress(100);
-            addLog(`Ingestion complete for ${file.name}. Chunks: ${update.chunks}`, 'success');
-            finalStatus = 'success';
-          }
-
-          if (status === 'error') {
-            throw new Error(update.message || 'Unknown backend error');
-          }
-
-        } catch (e) {
-          if (e instanceof Error && e.message !== 'Failed to parse update:') throw e;
-          console.warn('Failed to parse stream line:', line);
+      const status = update.status || update.phase;
+      if (['reading', 'analyzing', 'embedding'].includes(status)) {
+        setCurrentStep(status as IngestionStep);
+        // Track model name for each step
+        if (update.model) {
+          setStepModel(status as IngestionStep, update.model);
         }
+      }
+
+      if (status === 'skipped') {
+        finalStatus = 'skipped';
+      }
+
+      if (update.total && update.total > 0) {
+        let currentProgress = 0;
+        if (typeof update.progress === 'number') {
+          currentProgress = (update.progress / update.total) * 100;
+        }
+        setProgress(Math.min(Math.round(currentProgress), 99));
+      } else if (typeof update.progress === 'number') {
+        setProgress(Math.min(update.progress, 99));
+      } else if (status === 'reading') {
+        setProgress(10);
+      } else if (status === 'analyzing') {
+        setProgress(30);
+      }
+
+      if (status === 'complete') {
+        setProgress(100);
+        addLog(`Ingestion complete for ${file.name}. Chunks: ${update.chunks}`, 'success');
+        finalStatus = 'success';
+      }
+
+      if (status === 'error') {
+        throw new Error(update.message || 'Unknown backend error');
       }
     }
 
